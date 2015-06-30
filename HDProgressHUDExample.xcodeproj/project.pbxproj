@@ -46,6 +46,7 @@
 		096F83351B42983100CF19CE /* UIView+HDProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDProgressHUD.m"; sourceTree = "<group>"; };
 		096F83371B429A7200CF19CE /* HDProgressAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDProgressAttribute.h; sourceTree = "<group>"; };
 		096F83381B429A7200CF19CE /* HDProgressAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDProgressAttribute.m; sourceTree = "<group>"; };
+		096F833A1B42AB8800CF19CE /* HDProgressHUDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDProgressHUDConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 				096F83351B42983100CF19CE /* UIView+HDProgressHUD.m */,
 				096F83371B429A7200CF19CE /* HDProgressAttribute.h */,
 				096F83381B429A7200CF19CE /* HDProgressAttribute.m */,
+				096F833A1B42AB8800CF19CE /* HDProgressHUDConst.h */,
 			);
 			path = HDProgressHUD;
 			sourceTree = "<group>";

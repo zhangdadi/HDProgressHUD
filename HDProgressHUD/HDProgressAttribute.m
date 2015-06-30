@@ -7,8 +7,7 @@
 //
 
 #import "HDProgressAttribute.h"
-
-
+#import "HDProgressHUDConst.h"
 
 @interface HDProgressAttribute ()<MASConstraint>
 
