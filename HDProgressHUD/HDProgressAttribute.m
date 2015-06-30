@@ -10,7 +10,9 @@
 #import "HDProgressHUDConst.h"
 
 @interface HDProgressAttribute ()<MASConstraint>
-
+{
+    NSString *_text;
+}
 @end
 
 
@@ -24,7 +26,7 @@
 
 - (HDProgressAttribute<MASConstraint> *(^)(NSString*))text {
     return ^id(NSString *att) {
-        NSLog(@"%@", att);
+        _text = att;
         return self;
     };
 }
@@ -46,7 +48,7 @@
 
 - (id (^)())show {
     return ^id() {
-        NSLog(@"显示");
+        NSLog(@"显示:%@", _text);
         return nil;
     };
 }
